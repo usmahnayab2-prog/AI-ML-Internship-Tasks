@@ -1,24 +1,29 @@
-# Task 01: Exploring the Iris Dataset
 
-## Objective
-Explore and visualize the Iris dataset to understand patterns.
+# Iris Dataset Exploration and Visualization
 
-## Dataset
-Iris dataset from Seaborn.
+## Task Objective
+The goal of this project is to explore and visualize the Iris dataset to better understand the structure, distribution, and relationships of the flower measurements.
 
-## Steps Performed
-1. Loaded the dataset using Pandas and Seaborn.
-2. Explored data using head(), shape(), info(), and describe().
-3. Visualized data:
-   - Scatter plot
-   - Histogram
-   - Box plot
-4. Observed data patterns and insights.
+## Dataset Used
+- **Source:** Seaborn library built-in dataset  
+- **Name:** Iris  
+- **Features:** 
+  - `sepal_length`
+  - `sepal_width`
+  - `petal_length`
+  - `petal_width`
+  - `species` (target)
 
-## Key Insights
-- Petal length separates flower species clearly.
-- Sepal measurements overlap in some species.
-- No missing values.
+## Models Applied
+- No predictive models were applied in this project.  
+- Focus was on **data exploration and visualization** using:
+  - Scatter plots
+  - Histograms
+  - Box plots
 
-## Author
-USMAH NAYAB
+## Key Results and Findings
+1. Petal length varies clearly between species, making it a strong distinguishing feature.  
+2. Sepal length and width are more evenly spread across the species.  
+3. The dataset contains no missing values and is clean.  
+4. Visualizations (scatter plots, histograms, and box plots) helped identify patterns and unusual values effectively.
+
